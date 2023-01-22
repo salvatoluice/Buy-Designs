@@ -64,7 +64,7 @@ export const Header = () => {
             </div>
             <div className='left'>
               <Link to='/'>
-                <img src={logo} alt='logo' />
+                <h1>T-Graphicz</h1>
               </Link>
             </div>
             <div className='center'>
