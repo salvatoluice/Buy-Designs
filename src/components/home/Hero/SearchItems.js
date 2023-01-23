@@ -29,9 +29,13 @@ export const SearchItems = ({ products, value, onSearch }) => {
                 <div className='img'>
                   <img src={items.cover} alt='' />
                   <div className='overlay'>
-                    <button className='button' onClick={() => addToCart(items)}>
-                      <FiShoppingBag />
-                    </button>
+                  <button className='button'style={{
+                  width: '120px',
+                  borderRadius: '8px'
+                }} onClick={() => addToCart(items)}>
+                  {/* <FiShoppingBag /> */}
+                  Add to Cart
+                </button>
                     <button className='button'>
                       <AiOutlineHeart />
                     </button>

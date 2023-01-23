@@ -64,7 +64,7 @@ export const Header = () => {
             </div>
             <div className='left'>
               <Link to='/'>
-                <h1>T-Graphicz</h1>
+                <h1 style={{color: '#ff4b2e'}}>T-Graphicz</h1>
               </Link>
             </div>
             <div className='center'>
